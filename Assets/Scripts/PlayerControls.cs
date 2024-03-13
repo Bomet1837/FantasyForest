@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,15 +11,35 @@ public class PlayerControls : MonoBehaviour
     private Rigidbody2D rb;
     private bool is_on_ground;
     private Animator animator;
+    private bool isPlayable;
+    [SerializeField]
+    private GameObject PauseScreen;
     
 
     void Start()
     {
         rb = this.gameObject.GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        isPlayable = true;
     }
 
-    
+    void Update()
+    {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                isPlayable = !isPlayable;
+                if (isPlayable)
+                {
+                    Time.timeScale = 1;
+                    PauseScreen.SetActive(false);
+                }
+                else
+                {
+                    Time.timeScale = 0; 
+                    PauseScreen.SetActive(true);
+                }
+            }
+    }
 
     void FixedUpdate()
     {
@@ -42,7 +63,7 @@ public class PlayerControls : MonoBehaviour
         if (Input.GetButton("Jump") && is_on_ground)
         {
             rb.AddForce(new Vector2(0, VerticalScalar), ForceMode2D.Impulse);
-
+            
             
         }
         animator.SetBool("IsMoving", x_input != 0);

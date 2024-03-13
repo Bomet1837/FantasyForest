@@ -50,6 +50,8 @@
     <Compile Include="Assets\Scripts\DialogueObject.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\BackdropRig.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuScript.cs" />
+    <Compile Include="Assets\Scripts\ButtonMap.cs" />
     <Compile Include="Assets\Scripts\DialogueDisplay.cs" />
     <Compile Include="Assets\Scripts\CutsceneTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
