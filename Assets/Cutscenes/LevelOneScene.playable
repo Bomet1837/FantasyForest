@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7097760512212200203
+--- !u!114 &-8340744818970065799
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
-  m_Name: CinemachineShot
+  m_Name: CinemachineShot(Clone)(Clone)
   m_EditorClassIdentifier: 
   DisplayName: 
   VirtualCamera:
-    exposedName: 7a8c09763d6968d42843f3d63cf6662a
+    exposedName: c7eafceaf8b756742b7b6f618b556077
     defaultValue: {fileID: 0}
---- !u!114 &-1209803660371687036
+--- !u!114 &-5584717767074303456
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26,11 +26,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
-  m_Name: CinemachineShot
+  m_Name: CinemachineShot(Clone)(Clone)
   m_EditorClassIdentifier: 
   DisplayName: 
   VirtualCamera:
-    exposedName: 8e49105fd03478d4cb12e094b4798fb8
+    exposedName: 6b9de24154c31e74db6013480aa6d6a8
     defaultValue: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -46,14 +46,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
-  - {fileID: 2733601643908795819}
+  - {fileID: 7873970348602976332}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &2733601643908795819
+--- !u!114 &7873970348602976332
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -77,10 +77,10 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -1209803660371687036}
+    m_Asset: {fileID: -8340744818970065799}
     m_Duration: 3
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 2733601643908795819}
+    m_ParentTrack: {fileID: 7873970348602976332}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
@@ -146,10 +146,10 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0.21666666666666667
     m_ClipIn: 0
-    m_Asset: {fileID: -7097760512212200203}
+    m_Asset: {fileID: -5584717767074303456}
     m_Duration: 12.816666666666697
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 2733601643908795819}
+    m_ParentTrack: {fileID: 7873970348602976332}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 2.783333333333333
