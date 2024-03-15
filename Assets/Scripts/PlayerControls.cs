@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
+
+    public PhysicsMaterial2D whenMoving;
+    public PhysicsMaterial2D whenIdle;
     public float MovementScalar;
     public float VerticalScalar;
     public float MaxSpeed;
@@ -43,10 +46,15 @@ public class PlayerControls : MonoBehaviour
 
     void FixedUpdate()
     {
+        rb.sharedMaterial = whenIdle;
+        
         float x_input = Input.GetAxis("Horizontal");
         float direction = Mathf.Sign(x_input);
         if (rb.velocity.magnitude < MaxSpeed)
+
         {
+            rb.sharedMaterial = whenMoving;
+            
             if (direction <= 0f)
             {
                 transform.localRotation = Quaternion.Euler(0, 180, 0);

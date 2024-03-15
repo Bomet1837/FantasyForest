@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32464 MB
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32392 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity 2021.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/MUL785/Documents/GitHub/FantasyForest
+C:/Users/muk944/Documents/FantasyForest-main/FantasyForest-main
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64608
-Successfully changed project path to: C:/Users/MUL785/Documents/GitHub/FantasyForest
-C:/Users/MUL785/Documents/GitHub/FantasyForest
+64095
+Successfully changed project path to: C:/Users/muk944/Documents/FantasyForest-main/FantasyForest-main
+C:/Users/muk944/Documents/FantasyForest-main/FantasyForest-main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/MUL785/Documents/GitHub/FantasyForest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 91.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/MUL785/Documents/GitHub/FantasyForest/Assets
+[Subsystems] Discovering subsystems at path C:/Users/muk944/Documents/FantasyForest-main/FantasyForest-main/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -74,7 +74,7 @@ Register platform support module: C:/Program Files/Unity 2021.3.5f1/Editor/Data/
 Register platform support module: C:/Program Files/Unity 2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006330 seconds.
+Registered in 0.007010 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -87,42 +87,42 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.571 seconds
+- Completed reload, in  0.679 seconds
 Domain Reload Profiling:
-	ReloadAssembly (572ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (679ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (409ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (517ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (86ms)
+			SetupTypeCache (88ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (250ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (61ms)
+				InitializePlatformSupportModulesInManaged (56ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
+				RefreshPlugins (118ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003887 seconds.
+Registered in 0.011743 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\MUL785\Documents\GitHub\FantasyForest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\MUL785\Documents\GitHub\FantasyForest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\muk944\Documents\FantasyForest-main\FantasyForest-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\muk944\Documents\FantasyForest-main\FantasyForest-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -131,46 +131,46 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.21 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.893 seconds
+- Completed reload, in  1.088 seconds
 Domain Reload Profiling:
-	ReloadAssembly (894ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (689ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (886ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (334ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (487ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (128.2 KB). Loaded Objects now: 3886.
-Memory consumption went from 121.8 MB to 121.7 MB.
-Total: 4.486100 ms (FindLiveObjects: 0.415500 ms CreateObjectMapping: 0.265300 ms MarkObjects: 3.679900 ms  DeleteObjects: 0.123700 ms)
+Unloading 4248 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (128.2 KB). Loaded Objects now: 4705.
+Memory consumption went from 160.4 MB to 160.3 MB.
+Total: 3.686000 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.148400 ms MarkObjects: 3.144400 ms  DeleteObjects: 0.107300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -184,23 +184,215 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 48188.477948 seconds.
-  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background3.png
-  artifactKey: Guid(cd139cad4817e7144a2c0c2bb7cf8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background3.png using Guid(cd139cad4817e7144a2c0c2bb7cf8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91214eeba0e970ad0e7265eda006f33') in 0.165789 seconds 
+  Time since last request: 1515757.722283 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background2.png
+  artifactKey: Guid(3d7882fa7165d824d9173e4397f23c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background2.png using Guid(3d7882fa7165d824d9173e4397f23c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7504e8f1fe262a310ef37d1fc0e4b416') in 0.123083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.207320 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Decor/Decor.png
+  artifactKey: Guid(198c5cf9dad20144995fd44cf395c218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Decor/Decor.png using Guid(198c5cf9dad20144995fd44cf395c218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d18449e964d546c216aec63c272bee0') in 0.052594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.903641 seconds.
+  path: Assets/Prefabs/Background Layer 2.prefab
+  artifactKey: Guid(05dcb3a231c9898448d2dbf314419e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Background Layer 2.prefab using Guid(05dcb3a231c9898448d2dbf314419e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2b94d97d2b5cc2d9559cf564c11dc2') in 0.041956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
+  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef23e5896a9b47a97a1056b70c97e267') in 0.058930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_FlagBottom.prefab
+  artifactKey: Guid(e212dd35cc7eac44092d0f5a1684ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_FlagBottom.prefab using Guid(e212dd35cc7eac44092d0f5a1684ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a627e29f9de731d7a07041a50c1420') in 0.025828 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/SunnyLand Artwork/Environment/back.png
-  artifactKey: Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SunnyLand Artwork/Environment/back.png using Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6bebe55fc9e474f94edd2f5f18dbcf') in 0.033035 seconds 
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_FlagTop.prefab
+  artifactKey: Guid(d2c2ef38042347648b5d818d43abfd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_FlagTop.prefab using Guid(d2c2ef38042347648b5d818d43abfd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f009f9ea116d73af1496c312ffd81440') in 0.024619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_BrownS.prefab
+  artifactKey: Guid(9bcf2f755d31bf440a5425f1b8491455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_BrownS.prefab using Guid(9bcf2f755d31bf440a5425f1b8491455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95ebbe908547e09ed2831411069d197') in 0.023062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice1.prefab
+  artifactKey: Guid(aa2a049d80d4f444f934397de5a0dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice1.prefab using Guid(aa2a049d80d4f444f934397de5a0dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ca6cc8d5cccdd63ef3a128f730f38c') in 0.021362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice4.prefab
+  artifactKey: Guid(8c38077276a10554e8138ead4683d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice4.prefab using Guid(8c38077276a10554e8138ead4683d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efd2eaea98aaee928244855f2210824') in 0.018564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_IceTree2.prefab
+  artifactKey: Guid(6eebaaf7c92ecf84e8e987f8a1368ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_IceTree2.prefab using Guid(6eebaaf7c92ecf84e8e987f8a1368ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90674aff7f385c5c126e3e31312a2ffd') in 0.019946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Key2.prefab
+  artifactKey: Guid(f2f44ecf1337ca049b0479bef777e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Key2.prefab using Guid(f2f44ecf1337ca049b0479bef777e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a84d12a937c12f302cd95926f9cd4f0') in 0.019919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Lever.prefab
+  artifactKey: Guid(6ec1209a1898d4145a8c2a3b3696b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Lever.prefab using Guid(6ec1209a1898d4145a8c2a3b3696b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0302c4de57f4c17119be0de9b3386190') in 0.044249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_MPBrown.prefab
+  artifactKey: Guid(9750aa197a9a1084ca10eb30830ffa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_MPBrown.prefab using Guid(9750aa197a9a1084ca10eb30830ffa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a871d794d966e49fff73004e449db7a') in 0.021536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MUpsidedownIce1.prefab
+  artifactKey: Guid(c01523096c88ba94bb4670f15fc2256a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MUpsidedownIce1.prefab using Guid(c01523096c88ba94bb4670f15fc2256a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f09586707a0090970fa2e5c08a6b81') in 0.023183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MUpsidedownIce3.prefab
+  artifactKey: Guid(eddef292e5a4c104a99c6f7a8707364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_MUpsidedownIce3.prefab using Guid(eddef292e5a4c104a99c6f7a8707364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fce8ffabfa5649f559e01c3f862d4c') in 0.022426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Mush6.prefab
+  artifactKey: Guid(912ecad402cef80449197ade3f72ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Mush6.prefab using Guid(912ecad402cef80449197ade3f72ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043c050793d957839911e9042aff63e7') in 0.022610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PlateRightDirection.prefab
+  artifactKey: Guid(4573ebd680baec94a9724039361a86ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_PlateRightDirection.prefab using Guid(4573ebd680baec94a9724039361a86ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7f0581fbab6c5847170eb9bde9f92f') in 0.022617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Spike.prefab
+  artifactKey: Guid(fc3a8b4885815a64a89ea30e1521797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Spike.prefab using Guid(fc3a8b4885815a64a89ea30e1521797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d036347efe4b6a54573f4a8e272c301') in 0.022396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Tree2.prefab
+  artifactKey: Guid(c934ec8545292c647b88d9c27d367e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Tree2.prefab using Guid(c934ec8545292c647b88d9c27d367e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f19bd4b54a365f8464e5003b034d424') in 0.020434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownGrass2.prefab
+  artifactKey: Guid(ab59b93659d32f04b985c7df2ad7e73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownGrass2.prefab using Guid(ab59b93659d32f04b985c7df2ad7e73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaacdd9769424836cce0bde57927278') in 0.027717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownIce1.prefab
+  artifactKey: Guid(d153e1a20c3bba84393a11af09ec62a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownIce1.prefab using Guid(d153e1a20c3bba84393a11af09ec62a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83db4ad566d622e7e3bd81542114a8e9') in 0.021638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownIce4.prefab
+  artifactKey: Guid(b166a5d13834e0344a73049931838672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_UpsidedownIce4.prefab using Guid(b166a5d13834e0344a73049931838672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eaa26b8953eda50633d726ae233436') in 0.022844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_YellowAfirmationS.prefab
+  artifactKey: Guid(6e0c35049daccf14e8685937c8adc6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_YellowAfirmationS.prefab using Guid(6e0c35049daccf14e8685937c8adc6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6822a21e5bb94e16ce2cd01899ec451e') in 0.022366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Tree1.prefab
+  artifactKey: Guid(330ed8bde66879149bdc56c1f0fc8fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Tree1.prefab using Guid(330ed8bde66879149bdc56c1f0fc8fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179f5c6768f94ec160c82bbdaedcbfd2') in 0.022233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Key4.prefab
+  artifactKey: Guid(8677668639cc14a40a52c62309df610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Key4.prefab using Guid(8677668639cc14a40a52c62309df610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f277582acd2c2ff879d132e6f571f36') in 0.024552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice8.prefab
+  artifactKey: Guid(ae0ff0896ecd71641bc6afd6fbf33b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice8.prefab using Guid(ae0ff0896ecd71641bc6afd6fbf33b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3150cae152fe79c5ad6303a14749f479') in 0.021185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass8.prefab
+  artifactKey: Guid(31d365455afb8d440af3f400ff672277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Grass8.prefab using Guid(31d365455afb8d440af3f400ff672277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc036c83b28aefe8cb2babfaeeac00e') in 0.024961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Door.prefab
+  artifactKey: Guid(35f486b8151a4a14994e07266655a67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Itens/P_Door.prefab using Guid(35f486b8151a4a14994e07266655a67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735b1b2c8cf3ddff0fe6089f65df1157') in 0.025269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice3.prefab
+  artifactKey: Guid(4dacfd6795dbba34aad4ab38992c9412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyMeshWorld/2D SideScroller Pixel Art Kit Free/Prefabs/Vegetation/P_Ice3.prefab using Guid(4dacfd6795dbba34aad4ab38992c9412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91101fff4191a13ca7a96701317bf517') in 0.022507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.205483 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(b3a73dc5c13de40459106539074964c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(b3a73dc5c13de40459106539074964c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58493caae1a6f6ee436036b23914a32') in 0.021543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.732768 seconds.
+  path: Assets/Prefabs/Bush1 Variant.prefab
+  artifactKey: Guid(b17db6c24d69e4949a2cef84038a0dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bush1 Variant.prefab using Guid(b17db6c24d69e4949a2cef84038a0dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a8acec94174ac8b7196c45581ab1f0') in 0.021999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.893181 seconds.
+  path: Assets/Prefabs/Decor_2.prefab
+  artifactKey: Guid(672e47d69a26ef14eb15c6a0dc8e74d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Decor_2.prefab using Guid(672e47d69a26ef14eb15c6a0dc8e74d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1af22e036d6bb9899080a13b6e20069') in 0.021092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.958964 seconds.
+  path: Assets/Prefabs/Decor_6.prefab
+  artifactKey: Guid(15c6c7b3cab832d41b9565371b0f66ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Decor_6.prefab using Guid(15c6c7b3cab832d41b9565371b0f66ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725c67b7bfd81f0cd3649abd7dc2bb98') in 0.015951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.565504 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/CharacterSheet.png
+  artifactKey: Guid(496562456fdbe6647887febf11640c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/CharacterSheet.png using Guid(496562456fdbe6647887febf11640c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c14ca81ae719aa5e97d91744b387fb5') in 0.059410 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003810 seconds.
+Registered in 0.006131 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\MUL785\Documents\GitHub\FantasyForest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\MUL785\Documents\GitHub\FantasyForest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\muk944\Documents\FantasyForest-main\FantasyForest-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\muk944\Documents\FantasyForest-main\FantasyForest-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -209,43 +401,43 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
+- Completed reload, in  1.310 seconds
 Domain Reload Profiling:
-	ReloadAssembly (814ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1310ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (622ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (161ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (305ms)
+			SetupTypeCache (525ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
+				InitializePlatformSupportModulesInManaged (34ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (189ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (196ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (95.4 KB). Loaded Objects now: 3910.
-Memory consumption went from 124.7 MB to 124.6 MB.
-Total: 2.717900 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.135100 ms MarkObjects: 2.302500 ms  DeleteObjects: 0.027700 ms)
+Unloading 4224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (95.4 KB). Loaded Objects now: 4749.
+Memory consumption went from 163.1 MB to 163.0 MB.
+Total: 3.771200 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.167700 ms MarkObjects: 3.276100 ms  DeleteObjects: 0.049900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -257,7 +449,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\muk944\Documents\FantasyForest-main\FantasyForest-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\muk944\Documents\FantasyForest-main\FantasyForest-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (951ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.4 KB). Loaded Objects now: 4764.
+Memory consumption went from 163.0 MB to 162.9 MB.
+Total: 3.184700 ms (FindLiveObjects: 0.362400 ms CreateObjectMapping: 0.195400 ms MarkObjects: 2.587500 ms  DeleteObjects: 0.037500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
