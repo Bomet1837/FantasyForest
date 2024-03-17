@@ -424,3 +424,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6857.379172 seconds.
+  path: Assets/Art I Made/black.png
+  artifactKey: Guid(5027553553b8f2e41ae44453dd5bdeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art I Made/black.png using Guid(5027553553b8f2e41ae44453dd5bdeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c290c5ceae8e06d968228fa765bec888') in 0.570385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.417885 seconds.
+  path: Assets/Cutscenes/LevelOneScene.playable
+  artifactKey: Guid(02d921a2f41bc73408094c13f997a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutscenes/LevelOneScene.playable using Guid(02d921a2f41bc73408094c13f997a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a7fa716216be0cdd2176fe7518a569') in 0.007617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.596840 seconds.
+  path: Assets/Created Assets/IMG-20240316-WA0001.jpg
+  artifactKey: Guid(57ddbcbe9488f03458edd0defda06462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Created Assets/IMG-20240316-WA0001.jpg using Guid(57ddbcbe9488f03458edd0defda06462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3384b734f2108f80b6f048814c5fa0d') in 0.025202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006962 seconds.
+  path: Assets/Created Assets/IMG-20240316-WA0001.png
+  artifactKey: Guid(bd25c4789cbe2bf44aaf7799a2885a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Created Assets/IMG-20240316-WA0001.png using Guid(bd25c4789cbe2bf44aaf7799a2885a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2eacfafd82e60928ae5545d0da38f10') in 0.021170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Created Assets/IMG-20240316-WA0003.png
+  artifactKey: Guid(0e2e98efe28f9c94881c18f59cabb4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Created Assets/IMG-20240316-WA0003.png using Guid(0e2e98efe28f9c94881c18f59cabb4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c599e151aab74702b1dc01e630c20cd6') in 0.033763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Created Assets/thumbnail_MC_Concept_2.png
+  artifactKey: Guid(7e6c1e86a0f34fa4ab647f8ef6decfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Created Assets/thumbnail_MC_Concept_2.png using Guid(7e6c1e86a0f34fa4ab647f8ef6decfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316f27fd78f1fb9a486058d1eae9af89') in 0.071524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Created Assets/IMG-20240316-WA0002.jpg
+  artifactKey: Guid(647c442ee24c0e440a56a5fab338f76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Created Assets/IMG-20240316-WA0002.jpg using Guid(647c442ee24c0e440a56a5fab338f76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d522105dc387ce9544ab9aacaed90ab') in 0.043519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Created Assets/IMG-20240316-WA0003.jpg
+  artifactKey: Guid(df9f84391cca85e48b8b78cedf2691c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Created Assets/IMG-20240316-WA0003.jpg using Guid(df9f84391cca85e48b8b78cedf2691c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92f80103558570e611b4a0e4d578d84') in 0.030264 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
