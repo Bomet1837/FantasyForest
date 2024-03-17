@@ -11,6 +11,14 @@ public class CutsceneTrigger : MonoBehaviour
         if (trigger.CompareTag("Player"))
         {
             cutsceneObject.SetActive(true);
+            Invoke("NextStage", 4f);
         }
     }
+    
+    public void NextStage()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("lvl_1");
+    }
+    
+    
 }
