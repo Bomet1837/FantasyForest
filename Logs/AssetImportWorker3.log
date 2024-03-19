@@ -15,7 +15,7 @@ G:/GitHub/FantasyForest-collab/FantasyForest
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-59175
+57345
 Successfully changed project path to: G:/GitHub/FantasyForest-collab/FantasyForest
 G:/GitHub/FantasyForest-collab/FantasyForest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ G:/GitHub/FantasyForest-collab/FantasyForest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 123.46 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 110.23 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path G:/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'G:/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -72,7 +72,7 @@ Register platform support module: G:/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Pla
 Register platform support module: G:/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: G:/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: G:/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.005222 seconds.
+Registered in 0.005178 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
@@ -81,39 +81,39 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90.55 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 105.26 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.565 seconds
+- Completed reload, in  0.625 seconds
 Domain Reload Profiling:
-	ReloadAssembly (566ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (625ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (405ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (453ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (84ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (260ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (294ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (54ms)
+				InitializePlatformSupportModulesInManaged (60ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007979 seconds.
+Registered in 0.008030 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\GitHub\FantasyForest-collab\FantasyForest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\GitHub\FantasyForest-collab\FantasyForest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -123,46 +123,46 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.32 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 102.19 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.137 seconds
+- Completed reload, in  1.312 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1138ms)
-		BeginReloadAssembly (223ms)
+	ReloadAssembly (1313ms)
+		BeginReloadAssembly (232ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (132ms)
-		EndReloadAssembly (828ms)
-			LoadAssemblies (110ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
+			SetupTypeCache (274ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (458ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (490ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4781 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 63 unused Assets / (0.7 MB). Loaded Objects now: 5229.
 Memory consumption went from 178.7 MB to 178.1 MB.
-Total: 3.550300 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.170700 ms MarkObjects: 2.680200 ms  DeleteObjects: 0.392300 ms)
+Total: 3.779800 ms (FindLiveObjects: 0.305500 ms CreateObjectMapping: 0.122000 ms MarkObjects: 3.029600 ms  DeleteObjects: 0.321900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,130 +176,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4844.514514 seconds.
-  path: Assets/Created Assets/Tilemaps/IMG-20240316-WA0003_0.asset
-  artifactKey: Guid(a4ce026c27b1f8b46b5952c54cc782ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/IMG-20240316-WA0003_0.asset using Guid(a4ce026c27b1f8b46b5952c54cc782ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83062673f7a60de797b0ca21a21d93c') in 0.098346 seconds 
+  Time since last request: 36056.511709 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Vulture/vulture3.png
+  artifactKey: Guid(f1fa6bb9d4c2b08498afe75e30ee0bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Vulture/vulture3.png using Guid(f1fa6bb9d4c2b08498afe75e30ee0bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b2b73ec4abe46f3d30e401fe41ce54') in 0.107084 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_27.asset
-  artifactKey: Guid(70bfd4ca36dfe7145923099fd8921629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_27.asset using Guid(70bfd4ca36dfe7145923099fd8921629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ea4416e4cce4c0031ae637a3976434') in 0.011421 seconds 
+  Time since last request: 7.453356 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle3.png
+  artifactKey: Guid(7693de0fd721ffd4abcccfe4f0d3c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle3.png using Guid(7693de0fd721ffd4abcccfe4f0d3c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f04f09168b65f6d5d03777db1cce28f') in 0.011407 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_9.asset
-  artifactKey: Guid(101518b115b7f9f4891c9dd28066bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_9.asset using Guid(101518b115b7f9f4891c9dd28066bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628ac2f299ecd5b129785575459f01b9') in 0.008697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_4.asset
-  artifactKey: Guid(b6db163ea1e9060468eb1f70ba1e66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_4.asset using Guid(b6db163ea1e9060468eb1f70ba1e66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b50818ab8963d76e09f433590325da') in 0.008161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Created Assets/Tilemaps/IMG-20240316-WA0003_1.asset
-  artifactKey: Guid(c405c067b61760e458cbd2cf1b63fb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/IMG-20240316-WA0003_1.asset using Guid(c405c067b61760e458cbd2cf1b63fb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0e24fbe437b0178382f74ef2d4f964') in 0.008322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_3.asset
-  artifactKey: Guid(13f2f98492c622949b74fe67fa299960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_3.asset using Guid(13f2f98492c622949b74fe67fa299960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25fdabe7176a652e843351ef2caac26') in 0.008717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_12.asset
-  artifactKey: Guid(718a197c6563f5b4792aa8f3aab2c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_12.asset using Guid(718a197c6563f5b4792aa8f3aab2c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66a98e584a5126319917f4638356eed') in 0.006682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_22.asset
-  artifactKey: Guid(3bb38aeb759336a49be0f8c1fb6bcf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_22.asset using Guid(3bb38aeb759336a49be0f8c1fb6bcf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c00fe866ba7d0df4df5d7a8a1ad67a6') in 0.008181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_13.asset
-  artifactKey: Guid(8493e9c162e22c848b2c7bb1d986e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_13.asset using Guid(8493e9c162e22c848b2c7bb1d986e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad75e0fde6d59baa872d9ba8e2219ff') in 0.008639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_23.asset
-  artifactKey: Guid(f3fe1fc7c1a4a0242a77efd720b2a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_23.asset using Guid(f3fe1fc7c1a4a0242a77efd720b2a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489dfd9c89c8e57a0e1abee096bd7e5a') in 0.008116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_14.asset
-  artifactKey: Guid(a487993e2be9fb94f81816eb42cc60d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_14.asset using Guid(a487993e2be9fb94f81816eb42cc60d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cb2dcbaff76dadad9c1a2dd818995b') in 0.007668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Created Assets/Tilemaps/IMG-20240316-WA0003_5.asset
-  artifactKey: Guid(3878a703d9585d14ebb0fff556b1762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/IMG-20240316-WA0003_5.asset using Guid(3878a703d9585d14ebb0fff556b1762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e4eea9751685764c6d82d170d081a8') in 0.007480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_7.asset
-  artifactKey: Guid(a3e8200b3541e774ab14f2dc7c203053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_7.asset using Guid(a3e8200b3541e774ab14f2dc7c203053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e23e7152b94160102feb7077201bc2') in 0.007914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_5.asset
-  artifactKey: Guid(30f20d5de2401e04d8c9dd29ba52226b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_5.asset using Guid(30f20d5de2401e04d8c9dd29ba52226b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65b53e4baceb6ee9372577daac93f0c') in 0.009104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_18.asset
-  artifactKey: Guid(9ca6dab37455ac84a8a39753a48beb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_18.asset using Guid(9ca6dab37455ac84a8a39753a48beb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305453c4a815ce70b1847bd9f54be72e') in 0.010747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_24.asset
-  artifactKey: Guid(25d2aa05e3cbe0343acea05b3204424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_24.asset using Guid(25d2aa05e3cbe0343acea05b3204424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de5075c6e5e1f9f632954f28f74c088') in 0.008611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_1.asset
-  artifactKey: Guid(ad0850f0eaed6534a8fc1a4a658ee124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_1.asset using Guid(ad0850f0eaed6534a8fc1a4a658ee124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ec7c93e099ec83f10e41836006b8ef') in 0.008322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Created Assets/Tilemaps/IMG-20240316-WA0003_7.asset
-  artifactKey: Guid(af7161dfcc284f2488e21286fe599fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/IMG-20240316-WA0003_7.asset using Guid(af7161dfcc284f2488e21286fe599fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ebe815eacd1fe83150c4324c3dfd73') in 0.008301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_16.asset
-  artifactKey: Guid(e4a0ddd0c6ecb1345b50519acae29099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_16.asset using Guid(e4a0ddd0c6ecb1345b50519acae29099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c586a1d52a92e12eeedc45cfdb121c') in 0.008833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_11.asset
-  artifactKey: Guid(fe7f04281dbde3945b8ec9aa3621fa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_11.asset using Guid(fe7f04281dbde3945b8ec9aa3621fa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d480ccfe74f03a00bd9154bb74fb594') in 0.008537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Created Assets/Tilemaps/sky tiles_26.asset
-  artifactKey: Guid(3605d44388d38b145a42d85b1c78797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Created Assets/Tilemaps/sky tiles_26.asset using Guid(3605d44388d38b145a42d85b1c78797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c4211c58fcca02c526f1443b30fe60') in 0.008553 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle7.png
+  artifactKey: Guid(8bc8b2099a070054ab3e9f26e11cc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle7.png using Guid(8bc8b2099a070054ab3e9f26e11cc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7239f0b1e7420a294e1fd8682d799f7') in 0.011614 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

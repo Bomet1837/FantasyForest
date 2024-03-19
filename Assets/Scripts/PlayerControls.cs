@@ -71,14 +71,32 @@ public class PlayerControls : MonoBehaviour
         if (Input.GetButton("Jump") && is_on_ground)
         {
             rb.AddForce(new Vector2(0, VerticalScalar), ForceMode2D.Impulse);
+            animator.SetTrigger("IsJumping");
             
             
         }
+        
+        if (is_on_ground == true)
+        {
+            animator.SetTrigger("Landed");
+        }
+        
+        
         animator.SetBool("IsMoving", x_input != 0);
         animator.SetFloat("YVelocity", Mathf.Sign(rb.velocity.y));
         if (is_on_ground)
         {
             animator.SetFloat("YVelocity", 0);
+        }
+
+        if (Input.GetKey(KeyCode.C))
+        {
+            animator.SetTrigger("IsCrouching");
+        }
+        
+        if(Input.GetButton("Fire1"))
+        {
+            animator.SetTrigger("IsAttacking");
         }
     }
     
