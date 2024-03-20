@@ -42,6 +42,12 @@ public class PlayerControls : MonoBehaviour
                     PauseScreen.SetActive(true);
                 }
             }
+            
+            if(Input.GetButtonDown("Fire1"))
+            {
+                animator.SetTrigger("IsAttacking");
+                //GetComponent<Weapon>().Shoot();
+            }
     }
 
     void FixedUpdate()
@@ -94,10 +100,7 @@ public class PlayerControls : MonoBehaviour
             animator.SetTrigger("IsCrouching");
         }
         
-        if(Input.GetButton("Fire1"))
-        {
-            animator.SetTrigger("IsAttacking");
-        }
+        
     }
     
    
